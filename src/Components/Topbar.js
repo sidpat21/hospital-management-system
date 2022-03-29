@@ -15,7 +15,7 @@ function Topbar() {
                 <AccountCircleIcon className="accountIcon"/>
             </div>
             <div className='nameAndRole'>
-                    <h4>Sample <br></br>Admin</h4>
+                    <h4>Siddharth <br></br>Admin</h4>
             </div>
         </div>
     )
