@@ -6,7 +6,7 @@ function WelcomeDiv() {
   
   axios({
     method:'get',
-    url:'https://hospital-future.herokuapp.com//StartServer',
+    url:'https://hospital-future.herokuapp.com/StartServer',
     data: {
             }
     })

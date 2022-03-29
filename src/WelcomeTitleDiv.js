@@ -4,7 +4,7 @@ import axios from 'axios';
 function WelcomeTitleDiv() {
   axios({
     method:'get',
-    url:'https://hospital-future.herokuapp.com//StartServer',
+    url:'https://hospital-future.herokuapp.com/StartServer',
     data: {
             }
     })
@@ -12,7 +12,7 @@ function WelcomeTitleDiv() {
     }, (error) => {
     });
   return <div className="WelcomeTitleDiv">
-      <div className='WelcomeTitleDivContent'>BHARAT HOSPITAL MANAGEMENT SYSTEM</div>
+      <div className='WelcomeTitleDivContent'>KLS HOSPITAL MANAGEMENT SYSTEM</div>
   </div>;
 }
 
