@@ -15,7 +15,7 @@ function Lsd() {
     useEffect(()=>{
         axios({
             method:'get',
-            url:'https://sample-hospital.herokuapp.com/LiveCovid19Data',
+            url:'https://hospital-future.herokuapp.com//LiveCovid19Data',
             data: {
                 }
             })
