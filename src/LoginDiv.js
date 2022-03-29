@@ -20,7 +20,7 @@ function LoginDiv() {
 
       axios({
 method:'post',
-url:'https://hospital-future.herokuapp.com//ValidateUser',
+url:'https://hospital-future.herokuapp.com/ValidateUser',
 data: {
 	PostUserId : UserId ,
 	PostPassword : Password,
