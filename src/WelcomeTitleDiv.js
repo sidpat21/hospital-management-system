@@ -12,7 +12,7 @@ function WelcomeTitleDiv() {
     }, (error) => {
     });
   return <div className="WelcomeTitleDiv">
-      <div className='WelcomeTitleDivContent'>KLS HOSPITAL MANAGEMENT SYSTEM</div>
+      <div className='WelcomeTitleDivContent'>BHARAT HOSPITAL MANAGEMENT SYSTEM</div>
   </div>;
 }
 
