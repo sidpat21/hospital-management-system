@@ -1,4 +1,4 @@
-# Future Ready Talent Project By Siddharth Patil
+## Future Ready Talent Project By Siddharth Patil
 
 ## BHARAT HOSPITAL MANAGEMENT SYSTEM
 
