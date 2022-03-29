@@ -43,7 +43,7 @@ function EditPatientProfile() {
 
     axios({
 method:'post',
-url:'https://hospital-future.herokuapp.com//patient',
+url:'https://hospital-future.herokuapp.com/patient',
 data: {
       id : Id,
       pname : Name,
@@ -69,7 +69,7 @@ console.log(error);
 
         axios({
   method:'get',
-  url:'https://hospital-future.herokuapp.com//patient/'+Id,
+  url:'https://hospital-future.herokuapp.com/patient/'+Id,
   data: {
           }
   })

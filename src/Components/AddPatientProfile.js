@@ -40,7 +40,7 @@ function AddPatientProfile() {
 
         axios({
   method:'post',
-  url:'https://hospital-future.herokuapp.com//patient',
+  url:'https://hospital-future.herokuapp.com/patient',
   data: {
           id : Id,
           pname : Name,

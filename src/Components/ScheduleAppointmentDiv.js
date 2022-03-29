@@ -26,7 +26,7 @@ function ScheduleAppointmentDiv() {
     useEffect(() => {
         axios({
             method:'get',
-            url:'https://hospital-future.herokuapp.com//patient',
+            url:'https://hospital-future.herokuapp.com/patient',
             data: {
           
                 }
@@ -87,7 +87,7 @@ function ScheduleAppointmentDiv() {
     useEffect(() => {
         axios({
             method:'get',
-            url:'https://hospital-future.herokuapp.com//doctor',
+            url:'https://hospital-future.herokuapp.com/doctor',
             data: {
           
                 }
@@ -302,7 +302,7 @@ function ScheduleAppointmentDiv() {
 
   axios({
     method:'post',
-    url:'https://hospital-future.herokuapp.com//doctor',
+    url:'https://hospital-future.herokuapp.com/doctor',
     data: {
         id : Doctors[selectedIndexTemp-1].id,
         dname : Doctors[selectedIndexTemp-1].dname,

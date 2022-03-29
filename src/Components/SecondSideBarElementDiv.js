@@ -39,7 +39,7 @@ function SecondSideBarElementDiv() {
 
         axios({
   method:'post',
-  url:'https://hospital-future.herokuapp.com//doctor',
+  url:'https://hospital-future.herokuapp.com/doctor',
   data: {
           id : Id,
           dname : Name,
