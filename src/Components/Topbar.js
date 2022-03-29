@@ -9,13 +9,13 @@ function Topbar() {
             <LocalHospitalIcon className="svg_icons"/>
             </div>
             <div className='search'>
-                KLS HOSPITAL MANAGEMENT SYSTEM
+                BHARAT HOSPITAL MANAGEMENT SYSTEM
             </div>
             <div className='account'>
                 <AccountCircleIcon className="accountIcon"/>
             </div>
             <div className='nameAndRole'>
-                    <h4>Sample <br></br>Admin</h4>
+                    <h4>Siddharth <br></br>Admin</h4>
             </div>
         </div>
     )
