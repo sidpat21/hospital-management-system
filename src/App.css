@@ -1,0 +1,1721 @@
+.App{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left, #00ffff 0%, #ff33cc 100%);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main-body-div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-div {
+    flex: 12%;
+    background: crimson;
+}
+
+.bottom-div {
+    flex: 88%;
+    background-color:lime;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-div {
+    flex:77%;
+    display: flex;
+    flex-direction: row;
+    background-color: darkblue;
+}
+
+.left-side-div {
+    flex:100%;
+    display: flex;
+    flex-direction: row;
+}
+.left-sidebar-div {
+    flex: 25%;
+    background-color: orange;
+}
+
+.middle-body-div {
+    flex: 75%;
+    background: linear-gradient(to top left, #00ffff 0%, #ff33cc 100%);
+}
+
+.right-side-div {
+    flex: 23%;
+    background: #e3e6eb;
+}
+
+.topbar {
+    background: linear-gradient(to top left, #00ffff 0%, #ff33cc 100%);
+    border-bottom: 1px white solid;
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.topbar .logo {
+    flex:18%;
+    display: grid;
+    place-items: center;
+    color: white;
+}
+
+.topbar .search {
+    flex:70%;
+    display:grid;
+    place-items: center;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.topbar .account {
+    flex: 1%;
+    display:grid;
+    place-items: center;
+    color: white;
+}
+
+.topbar .nameAndRole {
+    flex: 11%;
+    display:grid;
+    place-items: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.accountIcon {
+    transform: scale(1.6);
+}
+
+.svg_icons {
+    transform: scale(3);
+  }
+
+.Sidebar {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to top left, #00ffff 0%, #ff33cc 100%);
+    display: flex;
+    flex-direction: row;
+}
+
+.SidebarList {
+    flex:20%;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+.SidebarList .row{
+    text-decoration: none;
+    width: 100%;
+    height: 60px;
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size:large;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    .SidebarList #active{
+        background-color:ghostwhite;
+        color: black;
+        border-radius: 0rem 0rem 0rem 0rem;
+        margin-top: 0px;
+        margin-bottom: 4px;
+    }
+    
+    .SidebarList .row:hover{
+        cursor: pointer;
+        background-color: white;
+        color: black;
+        transition: opacity 0s ease-in-out;
+        border-radius: 4rem 4rem 4rem 4rem;  
+        margin-left: 0.3;
+        margin-right: 0.3;
+        margin-top: 0.5;
+        margin-bottom: 0.5;
+        box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, .2);
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+    
+    .SidebarList #active:hover{
+        background-color: white;
+        color: black;
+        border-radius: 0rem 0rem 0rem 0rem;
+    }
+        
+    .row #icon{
+        flex: 30%;
+        display: grid;
+        place-items: center;
+    }
+    
+    .row #title{
+        flex: 70%;
+    }
+    
+    .right-side-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+       
+    }
+
+    .bx {
+        margin: 5px;
+        width: 90%;
+        height: 89%;
+        box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, .2);
+        border-radius: 2rem;
+        background-color: white;
+        
+        border-radius: 2rem;
+    }
+
+    .bx {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .bx .b5 {
+        flex: 50%;
+        background-color: white;
+        display: flex;
+        border-radius: 2rem;
+    }
+    
+    .b5-div {
+        flex: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .coronaIcon {
+
+        color:rgb(30, 255, 0);
+
+        animation: rotateCoronaIcon 5s linear infinite;
+    }
+    
+    @keyframes rotateCoronaIcon {
+        from{transform: rotate(0deg);}
+        to{ transform: rotate(360deg);}
+    }
+    @keyframes rotateCoronaIcon {
+        0% {transform: scale(8);}
+        25% {transform: scale(6);}
+        50% {transform: scale(8);}
+        75% {transform: scale(6);}
+        100% {transform: scale(8);}
+    }
+    
+    .bx .b6 {
+        flex: 50%;
+        background-color: white;
+        border-radius: 2rem;
+    }
+    
+    .coronainfo {
+        flex: 100%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: black;
+        font-weight: bolder;
+        font-size:large;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    .confirmedValue1 {
+        display: flex;
+        flex-direction: row;
+    }
+    #live {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size:x-large;
+        font-weight: bolder;
+        color: transparent;
+        background-image: linear-gradient(0% ,100%);
+        -webkit-background-clip: text;
+        animation: animateLive 1s linear infinite;
+    
+    }
+    
+    @keyframes animateLive {
+        0%{
+            background-color:snow;
+        }
+        20%{
+            background-color:rgb(255, 45, 45);
+        }
+        40%{
+            background-color:rgb(255, 45, 45);
+        }
+        60%{
+            background-color:rgb(255, 45, 45);
+        }
+        80%{
+            background-color:rgb(255, 45, 45);
+        }
+        100%{
+            background-color:rgb(255, 45, 45);
+        }
+    }
+
+    .confirmedValueWorld {
+        color: transparent;
+        background-image: linear-gradient(0% ,100%);
+        -webkit-background-clip: text;
+        animation: animate1 1s linear infinite;
+    
+    }
+
+    .confirmedValueIndia {
+        color: transparent;
+        background-image: linear-gradient(0% ,100%);
+        -webkit-background-clip: text;
+        animation: animate2 1s linear infinite;
+    
+    }
+
+    .confirmedValueKarnataka {
+        color: transparent;
+        background-image: linear-gradient(0% ,100%);
+        -webkit-background-clip: text;
+        animation: animate3 1s linear infinite;
+    
+    }
+
+    @keyframes animate1 {
+        10%{
+            background-color:limegreen;
+        }
+        20%{
+            background-color:limegreen;
+        }
+        30%{
+            background-color:limegreen;
+        }
+        40%{
+            background-color:limegreen;
+        }
+        0%{
+            background-color:limegreen;
+        }
+        50%{
+            background-color:limegreen;
+        }
+        60%{
+            background-color:limegreen;
+        }
+        70%{
+            background-color:limegreen;
+        }
+        80%{
+            background-color:limegreen;
+        }
+        90%{
+            background-color:limegreen;
+        }
+        100%{
+            background-color:limegreen;
+        }
+        
+    }
+
+    @keyframes animate2 {
+        10%{
+            background-color:limegreen;
+        }
+        20%{
+            background-color:limegreen;
+        }
+        30%{
+            background-color:limegreen;
+        }
+        40%{
+            background-color:limegreen;
+        }
+        0%{
+            background-color:limegreen;
+        }
+        50%{
+            background-color:limegreen;
+        }
+        60%{
+            background-color:limegreen;
+        }
+        70%{
+            background-color:limegreen;
+        }
+        80%{
+            background-color:limegreen;
+        }
+        90%{
+            background-color:limegreen;
+        }
+        100%{
+            background-color:limegreen;
+        }
+        
+    }
+
+    @keyframes animate3 {
+        10%{
+            background-color:limegreen;
+        }
+        20%{
+            background-color:limegreen;
+        }
+        30%{
+            background-color:limegreen;
+        }
+        40%{
+            background-color:limegreen;
+        }
+        0%{
+            background-color:limegreen;
+        }
+        50%{
+            background-color:limegreen;
+        }
+        60%{
+            background-color:limegreen;
+        }
+        70%{
+            background-color:limegreen;
+        }
+        80%{
+            background-color:limegreen;
+        }
+        90%{
+            background-color:limegreen;
+        }
+        100%{
+            background-color:limegreen;
+        }
+        
+    }
+    .accountIcon {
+        transform: scale(1.6);
+    }
+    
+    .svg_icons {
+        transform: scale(3);
+      }
+
+.coronaIcon {
+    transform: scale(10);
+    align-items: center;
+    justify-content: center;
+  }
+
+  .FirstSideBarElementDiv {
+      width: 100%;
+      height: 100%;
+      background-color: blue;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-weight: bolder;
+      font-size: xx-large;
+      color: cornsilk;
+  }
+
+  .SecondSideBarElementDiv {
+    width: 100%;
+    height: 100%;
+    background-color:crimson;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: cornsilk;
+  }
+
+  .ThirdSideBarElementDiv {
+    width: 100%;
+    height: 100%;
+    background-color:darkgoldenrod;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: cornsilk;
+  }
+
+  .FourthSideBarElementDiv {
+    width: 100%;
+    height: 100%;
+    background-color:chartreuse;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: cornsilk;
+  }
+
+  .FifthSideBarElementDiv {
+    width: 100%;
+    height: 100%;
+    background-color:deeppink;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: cornsilk;
+  }
+
+  .SixthSideBarElementDiv {
+    width: 100%;
+    height: 100%;
+    background-color:aqua;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: cornsilk;
+  }
+
+  .hookDiv1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+  }
+
+  .hookDiv2 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+  }
+
+  .hookDiv3 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+  }
+
+  .routerDiv1 {
+      background-color: chartreuse;
+      width: 100px;
+      height: 100px;
+  }
+
+  .routerDiv2 {
+    background-color:chocolate;
+    width: 100px;
+    height: 100px;
+}
+
+.routerDiv3 {
+    background-color:crimson;
+    width: 100px;
+    height: 100px;
+}
+
+.HomeRouter {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #e3e6eb;
+}
+
+.HomeRouterTop {
+flex: 50%;
+display: flex;
+flex-direction: row;
+
+}
+
+.HomeRouterBottom {
+    flex: 50%;
+    display: flex;
+    flex-direction: row;
+    }
+
+
+.HomeRouterTopLeft {
+    flex: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.HomeRouterTopRight {
+    flex: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.HomeRouterBottomLeft {
+    flex: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.HomeRouterBottomRight {
+    flex: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.HomeRouterTopLeftInsider {
+    flex: 100%;
+    background-color: white;
+    margin: 38px;
+    border-radius: 2rem;
+    box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, .2);
+    display: flex;
+    flex-direction: column;
+}
+
+.HomeRouterTopRightInsider {
+    flex: 100%;
+    background-color: white;
+    margin: 38px;
+    border-radius: 2rem;
+    box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, .2);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.HomeRouterBottomRightInsider {
+    flex: 100%;
+    background-color: white;
+    margin: 38px;
+    border-radius: 2rem;
+    box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, .2);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.HomeRouterBottomLeftInsider {
+    flex: 100%;
+    background-color: white;
+    margin: 38px;
+    border-radius: 2rem;
+    box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, .2);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.HomeRouterInsiderHolder {
+    flex: 100%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.HomeRouterInsiderIconDiv {
+ flex: 70%;
+ background-color: white;
+ display: grid;
+align-items: center;
+justify-content: center;
+}
+.HomeRouterInsiderIconSA {
+    transform: scale(3.5);
+    color: blue;
+}
+.HomeRouterInsiderIconAPP {
+    transform: scale(3.5);
+    color: orangered;
+}
+.HomeRouterInsiderIconEPP {
+    transform: scale(3.5);
+    color: brown;
+}
+.HomeRouterInsiderIconGB {
+    transform: scale(3.5);
+    color: rgb(30, 255, 0);
+}
+.HomeRouterInsiderName {
+ flex: 30%;
+ background-color: white;
+ font-family:sans-serif;
+display: grid;
+justify-content: center;
+align-items: top;
+font-size: large;
+font-weight: bolder;
+}
+
+.HomeRouterTopLeftInsider:hover {
+    box-shadow: 12px 12px 5px 5px rgba(0, 0, 255, .2);
+    transform: scale(1.06);
+}
+
+.HomeRouterTopRightInsider:hover {
+    box-shadow: 12px 12px 5px 5px rgba(0, 0, 255, .2);
+    transform: scale(1.06);
+}
+
+.HomeRouterBottomLeftInsider:hover {
+    box-shadow: 12px 12px 5px 5px rgba(0, 0, 255, .2);
+    transform: scale(1.06);
+}
+
+.HomeRouterBottomRightInsider:hover {
+    box-shadow: 12px 12px 5px 5px rgba(0, 0, 255, .2);
+    transform: scale(1.06);
+}
+
+
+
+
+
+.WelcomeDiv {
+    background: linear-gradient(to top left, #00ffff 0%, #ff33cc 100%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size:4rem;
+    color: white;
+}
+
+.WelcomeDivContentIcon {
+    flex:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.hospitalIconDiv { 
+    background: linear-gradient(to top left, #00ffff 0%, #ff33cc 100%);
+    width: 300px;
+    height: 300px;
+border-radius: 2rem;
+display: grid;
+align-items: center;
+justify-content: center;
+box-shadow: 12px 12px 3px 2px rgba(0, 0, 255, .2);
+}
+
+.hospitalIcon {
+    color: rgb(255, 255, 255);
+    transform: scale(13);
+    animation: rotatePlusIcon 5s linear infinite;
+}
+
+@keyframes rotatePlusIcon {
+    from{transform: rotate(0deg);}
+    to{ transform: rotate(360deg);}
+}
+@keyframes rotatePlusIcon {
+    0% {transform: scale(13);}
+    25% {transform: scale(11);}
+    50% {transform: scale(13);}
+    75% {transform: scale(11);}
+    100% {transform: scale(13);}
+}
+
+.WelcomeTitleDiv{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to top left, #00ffff 0%, #ff33cc 100%);
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    font-size: 4rem;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.WelcomeTitleDivContent {
+    flex: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.LoginDiv {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to top left, #00ffff 0%, #ff33cc 100%);
+    display: flex;
+    flex-direction: row;
+}
+
+.LoginDivLeftside {
+    flex:72%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.LoginDivRightside {
+    flex:28%;
+    background-color: #e3e6eb;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.LoginDivLeftsideContentDivHolder{
+flex: 100%;
+}
+
+
+.LoginDivLeftsideContentDiv {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(to top left, #00ffff 0%, #ff33cc 100%);
+border-radius: 1rem;
+margin:10rem;
+display: grid;
+align-items: center;
+justify-content: center;
+box-shadow: 12px 12px 3px 2px rgba(0, 0, 255, .2);
+}
+
+.LoginDivLeftsideContentHospitalIcon {
+    color: rgb(255, 255, 255);
+    transform: scale(13);
+    animation: rotatePlusIcon 5s linear infinite;
+}
+
+@keyframes rotatePlusIcon {
+    from{transform: rotate(0deg);}
+    to{ transform: rotate(360deg);}
+}
+@keyframes rotatePlusIcon {
+    0% {transform: scale(13);}
+    25% {transform: scale(11);}
+    50% {transform: scale(13);}
+    75% {transform: scale(11);}
+    100% {transform: scale(13);}
+}
+
+.LoginDivRightsideContentDiv {
+    flex: 100%;
+    background: white;
+    background: linear-gradient(to top left,#ff33cc 0%, #00ffff 100%);
+    margin:3rem;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.2rem;
+}
+
+.LoginDivRightsideContentDivIconDiv {
+flex: 50%;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+color: rgb(255, 255, 255);
+}
+
+.LoginDivRightsideContentDivIconDivIconHolder
+{
+    width: 210px;
+    height: 210px;
+    border-radius: 2.0rem;
+    background: linear-gradient(to top left,#ff33cc 0%, #00ffff 100%);
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.LoginDivRightsideContentDivIconDivAccountIcon {
+    transform: scale(8);
+}
+
+
+.LoginDivRightsideContentDivBottomContent {
+flex:50%;
+display: flex;
+flex-direction: column;
+}
+.LoginDivRightsideContentDivUserIdDiv {
+flex: 25%;
+display: grid;
+justify-content: center;
+align-items: center;
+}
+
+.LoginDivRightsideContentDivPasswordDiv {
+flex: 25%;
+display: grid;
+justify-content: center;
+align-items: center;
+}
+
+.LoginDivRightsideContentDivSubmitDiv {
+flex: 50%;
+display: grid;
+justify-content: center;
+align-items: center;
+}
+
+
+#UserId {
+    width: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size:medium;
+    color: black;
+    background-color: white;
+    border-radius: 0.2rem;
+    padding: 5px;
+    text-align:center;
+    box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, .2);
+}
+
+#Password {
+    width: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size:medium;
+    background-color: white;
+    color: black;
+    border-radius: 0.2rem;
+    padding: 5px;
+    border-color: white;
+    text-align:center;
+    box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, .2);
+}
+
+#Submit {
+    width: 200px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size:medium;
+    background: linear-gradient(to top left, #ff33cc  0%, #00ffff 100%);
+    color: white;
+    border-radius: 0.5rem;
+    box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, .2);
+}
+
+
+.AddPatientProfileDiv {
+    width: 100%;
+    height: 100%;
+   display: flex;
+   flex-direction: column;
+   background: #e3e6eb;
+}
+
+.AddPatientProfile{
+    flex: 100%;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 2rem;
+    box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.AddPatientProfileTitle {
+    border-radius: 2rem;
+    flex:15%;
+    color:#00C0F0;
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.AddPatientProfileTop {
+
+flex: 70%;
+display: flex;
+flex-direction: row;
+}
+.AddPatientProfileBottom {
+flex: 15%;
+display: grid;
+justify-content: center;
+align-items: center;
+border-radius: 2rem;
+}
+
+.AddPatientProfileTopRight{
+flex: 50%;
+display: flex;
+flex-direction: column;
+}
+
+.AddPatientProfileTopLeft{
+flex: 50%;
+display: flex;
+flex-direction: column;
+}
+
+
+.AddPatientProfileTopLeft1 {
+flex: 20%;
+color: white;
+display: grid;
+align-items: center;
+margin-left: 2rem;
+margin-right: 2rem;
+}
+
+.AddPatientProfileTopLeft2 {
+flex: 20%;
+display: grid;
+align-items: center;
+margin-left: 2rem;
+margin-right: 2rem;
+}
+
+.AddPatientProfileTopLeft3 {
+flex: 20%;
+display: grid;
+align-items: center;
+margin-left: 2rem;
+margin-right: 2rem;
+}
+
+.AddPatientProfileTopLeft4 {
+flex: 20%;
+display: grid;
+align-items: center;
+margin-left: 2rem;
+margin-right: 2rem;
+}
+
+.AddPatientProfileTopLeft5 {
+    flex: 20%;
+    display: grid;
+align-items: center;
+margin-left: 2rem;
+margin-right: 2rem;
+}
+
+.AddPatientProfileTopRight1 {
+flex:20%;
+display: grid;
+align-items: center;
+margin-left: 2rem;
+margin-right: 2rem;
+}
+
+.AddPatientProfileTopRight2 {
+flex:20%;
+display: grid;
+align-items: center;
+margin-left: 2rem;
+margin-right: 2rem;
+}
+
+.AddPatientProfileTopRight3 {
+flex: 60%;
+display: flex;
+flex-direction: column;
+}
+
+.AddPatientProfileTopRight31 {
+flex: 70%;
+display: grid;
+align-items: center;
+justify-content: center;
+}
+.AddPatientProfileTopRight32 {
+flex: 30%;
+display: grid;
+align-items: center;
+justify-content: center;
+}
+
+.PatientAddedSuccessDiv {
+    width: 100%;
+    height: 100%;
+   display: flex;
+   flex-direction: column;
+   background: #e3e6eb;
+}
+
+.PatientAddedSuccess {
+    flex: 100%;
+    margin: 2rem;
+    background: white;
+    border-radius: 2rem;
+    box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, .2);
+    display: flex;
+    flex-direction: column;
+}
+
+.PatientAddedSuccessTop {
+    flex: 60%;
+    display: grid;
+    justify-content: center;
+
+}
+
+.checkBoxIcon {
+    transform: scale(9);
+    color:rgb(30, 255, 0);
+}
+
+.PatientAddedSuccessBottom {
+    flex: 40%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color:rgb(39, 179, 20);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bolder;
+    font-size: 1.7rem;
+}
+
+
+
+
+
+
+.ViewDoctorDiv {
+    width: 100%;
+    height: 100%;
+   display: flex;
+   flex-direction: column;
+   background: #e3e6eb;
+}
+
+.ViewDoctorInnerDiv{
+    flex: 100%;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 2rem;
+    box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.ViewDoctorInnerDivTitle {
+    border-radius: 2rem;
+    flex:20%;
+    color:#00C0F0;
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.ViewDoctorInnerDivTop {
+
+flex: 60%;
+display: flex;
+flex-direction: row;
+border-radius: 2rem;
+}
+
+.DoctorInnerDivBottom {
+    flex: 20%;
+    border-radius: 2rem;
+}
+
+.tableHead {
+    background: black;
+    color: white;
+}
+
+
+
+.ScheduleAppDiv {
+    width: 100%;
+    height: 100%;
+   display: flex;
+   flex-direction: column;
+   background: #e3e6eb;
+}
+
+.ScheduleAppInnerDiv{
+    flex: 100%;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 2rem;
+    box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.ScheduleAppInnerDivTitle {
+    border-radius: 2rem;
+    flex:10%;
+    color:#00C0F0;
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.ScheduleAppInnerDivTop {
+
+flex: 75%;
+display: flex;
+flex-direction: column;
+margin-left: 2rem;
+margin-right: 2rem;
+}
+
+.ScheduleAppInnerDivBottom {
+    flex: 15%;
+    border-radius: 2rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.ScheduleAppInnerDivTopSelect {
+    flex:25%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+.ScheduleAppInnerDivTopSelectPatient {
+flex: 50%;
+display: grid;
+align-items: center;
+justify-content: center;
+}
+.ScheduleAppInnerDivTopSelectPatientOptions{
+    width: 300px;
+    height: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    text-align: center;
+}
+.ScheduleAppInnerDivTopSelectDoctor {
+    flex: 50%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    }
+    .ScheduleAppInnerDivTopSelectDoctorOptions{
+        width: 300px;
+        height: 25px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bolder;
+        font-size: large;
+        text-align: center;
+    }
+.ScheduleAppInnerDivTopSelectDoctor {
+flex: 50%;
+}
+.ScheduleAppInnerDivTopSlot {
+    flex : 75%;
+    background: orangered;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.ScheduleAppInnerDivTopSlotTop {
+    flex: 50%;
+    background: red;
+    display: flex;
+    flex-direction: row;
+}
+
+.ScheduleAppInnerDivTopSlotBottom {
+    flex: 50%;
+    background: magenta;
+    display: flex;
+    flex-direction: row;
+}
+
+.ScheduleAppInnerDivTopSlotTopslot8to9 {
+flex: 33%;
+background: white;
+display: flex;
+flex-direction: column; 
+}
+
+.ScheduleAppInnerDivTopSlotTopInner8to9 {
+    flex: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0.3rem;
+    box-shadow: 4x 4px 2px 1px rgba(0, 0, 255, .2);
+    
+}
+
+.ScheduleAppInnerDivTopSlotTopslot9to10 {
+    flex: 33%;
+    background: white;
+    display: flex;
+flex-direction: column;
+}
+
+.ScheduleAppInnerDivTopSlotTopInner9to10 {
+    flex: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0.3rem;
+    box-shadow: 4x 4px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.ScheduleAppInnerDivTopSlotTopslot10to11 {
+    flex: 33%;
+    background: white;
+    display: flex;
+flex-direction: column;
+}
+
+.ScheduleAppInnerDivTopSlotTopInner10to11 {
+    flex: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0.3rem;
+    box-shadow: 4x 4px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.ScheduleAppInnerDivTopSlotTopslot11to12 {
+    flex: 33%;
+    background: white;
+     display: flex;
+flex-direction: column;
+    }
+    .ScheduleAppInnerDivTopSlotTopInner11to12 {
+        flex: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0.3rem;
+        box-shadow: 4x 4px 2px 1px rgba(0, 0, 255, .2);
+    }
+    .ScheduleAppInnerDivTopSlotTopslot12to1 {
+        flex: 33%;
+        background: white;
+        display: flex;
+flex-direction: column;
+    }
+    .ScheduleAppInnerDivTopSlotTopInner12to1 {
+        flex: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0.3rem;
+        box-shadow: 4x 4px 2px 1px rgba(0, 0, 255, .2);
+    }
+    
+    .ScheduleAppInnerDivTopSlotTopslot1to2 {
+        flex: 33%;
+        background: white;
+        display: flex;
+flex-direction: column;
+    }
+    .ScheduleAppInnerDivTopSlotTopInner1to2 {
+        flex: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0.3rem;
+        box-shadow: 4x 4px 2px 1px rgba(0, 0, 255, .2);
+    }
+    .ScheduleAppInnerDivTopSlotTopslot8to9topBlueBackground {
+        flex: 60%;
+        background: #00ffea;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bolder;
+        font-size: large;
+    }
+
+    .ScheduleAppInnerDivTopSlotTopslot8to9topWhiteBackground {
+        flex: 60%;
+        background: #e3e6eb;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bolder;
+        font-size: large;
+    }
+
+.ScheduleAppInnerDivTopSlotTopslot8to9bottomOriginalBackground {
+flex: 40%;
+color: white;
+background: red;
+display: grid;
+align-items: center;
+justify-content: center;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: bolder;
+font-size: larger; 
+}
+
+.ScheduleAppInnerDivTopSlotTopslot8to9bottomLimeBackground {
+    flex: 40%;
+    color: white;
+    background: lime;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;   
+    font-size: larger; 
+}
+
+.ScheduleAppInnerDivTopSlotTopslot8to9bottomBlueBackground {
+    flex: 40%;
+    color: white;
+    background: rgb(0, 195, 255);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;   
+    font-size: larger;  }
+
+.ScheduleAppInnerDivTopSlotTopslot9to10topBlueBackground {
+    flex: 60%;
+    background: #00ffea;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.ScheduleAppInnerDivTopSlotTopslot9to10topWhiteBackground {
+    flex: 60%;
+    background: #e3e6eb;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+}
+        
+    .ScheduleAppInnerDivTopSlotTopslot9to10bottomOriginalBackground {
+        flex: 40%;
+        color: white;
+        background: red;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bolder;
+        font-size: larger; }
+    
+    .ScheduleAppInnerDivTopSlotTopslot9to10bottomLimeBackground {
+        flex: 40%;
+        color: white;
+        background: lime;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bolder;   
+        font-size: larger; }
+
+
+        .ScheduleAppInnerDivTopSlotTopslot9to10bottomBlueBackground {
+            flex: 40%;
+            color: white;
+            background: rgb(0, 195, 255);
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: bolder;   
+            font-size: larger;  }
+
+
+        .ScheduleAppInnerDivTopSlotTopslot10to11topBlueBackground {
+            flex: 60%;
+            background: #00ffea;
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: bolder;
+            font-size: large;
+        }
+
+        .ScheduleAppInnerDivTopSlotTopslot10to11topWhiteBackground {
+            flex: 60%;
+            background: #e3e6eb;
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: bolder;
+            font-size: large;
+        }
+        .ScheduleAppInnerDivTopSlotTopslot10to11bottomOriginalBackground {
+            flex: 40%;
+            color: white;
+            background: red;
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: bolder;
+            font-size: larger;   }
+        .ScheduleAppInnerDivTopSlotTopslot10to11bottomLimeBackground {
+            flex: 40%;
+            color: white;
+            background: lime;
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: bolder;   
+            font-size: larger;   }
+            .ScheduleAppInnerDivTopSlotTopslot10to11bottomBlueBackground {
+                flex: 40%;
+                color: white;
+                background: rgb(0, 195, 255);
+                display: grid;
+                align-items: center;
+                justify-content: center;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-weight: bolder;   
+                font-size: larger;  }
+            .ScheduleAppInnerDivTopSlotTopslot11to12topBlueBackground {
+                flex: 60%;
+                background: #00ffea;
+                display: grid;
+                align-items: center;
+                justify-content: center;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-weight: bolder;
+                font-size: large;
+            }
+
+            .ScheduleAppInnerDivTopSlotTopslot11to12topWhiteBackground {
+                flex: 60%;
+                background: #e3e6eb;
+                display: grid;
+                align-items: center;
+                justify-content: center;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-weight: bolder;
+                font-size: large;
+            }
+            
+            .ScheduleAppInnerDivTopSlotTopslot11to12bottomOriginalBackground {
+                flex: 40%;
+                color: white;
+                background: red;
+                display: grid;
+                align-items: center;
+                justify-content: center;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-weight: bolder;
+                font-size: larger;  }
+            
+            .ScheduleAppInnerDivTopSlotTopslot11to12bottomLimeBackground {
+                flex: 40%;
+                color: white;
+                background: lime;
+                display: grid;
+                align-items: center;
+                justify-content: center;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-weight: bolder;   
+                font-size: larger;  }
+                
+                .ScheduleAppInnerDivTopSlotTopslot11to12bottomBlueBackground {
+                    flex: 40%;
+                    color: white;
+                    background: rgb(0, 195, 255);
+                    display: grid;
+                    align-items: center;
+                    justify-content: center;
+                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                    font-weight: bolder;   
+                    font-size: larger;  }
+
+
+                    .ScheduleAppInnerDivTopSlotTopslot12to1topBlueBackground {
+                        flex: 60%;
+                        background: #00ffea;
+                        display: grid;
+                        align-items: center;
+                        justify-content: center;
+                        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                        font-weight: bolder;
+                        font-size: large;
+                    }
+        
+                    .ScheduleAppInnerDivTopSlotTopslot12to1topWhiteBackground {
+                        flex: 60%;
+                        background: #e3e6eb;
+                        display: grid;
+                        align-items: center;
+                        justify-content: center;
+                        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                        font-weight: bolder;
+                        font-size: large;
+                    }
+                .ScheduleAppInnerDivTopSlotTopslot12to1bottomOriginalBackground {
+                    flex: 40%;
+                    color: white;
+                    background: red;
+                    display: grid;
+                    align-items: center;
+                    justify-content: center;
+                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                    font-weight: bolder;
+                    font-size: larger;  }
+                
+
+                .ScheduleAppInnerDivTopSlotTopslot12to1bottomLimeBackground {
+                    flex: 40%;
+                    color: white;
+                    background: lime;
+                    display: grid;
+                    align-items: center;
+                    justify-content: center;
+                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                    font-weight: bolder;   
+                    font-size: larger;    }
+                    
+                    .ScheduleAppInnerDivTopSlotTopslot12to1bottomBlueBackground {
+                        flex: 40%;
+                        color: white;
+                        background: rgb(0, 195, 255);
+                        display: grid;
+                        align-items: center;
+                        justify-content: center;
+                        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                        font-weight: bolder;   
+                        font-size: larger;  }
+
+                    .ScheduleAppInnerDivTopSlotTopslot1to2topBlueBackground {
+                        flex: 60%;
+                        background: #00ffea;
+                        display: grid;
+                        align-items: center;
+                        justify-content: center;
+                        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                        font-weight: bolder;
+                        font-size: large;
+                    }
+        
+                    .ScheduleAppInnerDivTopSlotTopslot1to2topWhiteBackground {
+                        flex: 60%;
+                        background: #e3e6eb;
+                        display: grid;
+                        align-items: center;
+                        justify-content: center;
+                        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                        font-weight: bolder;
+                        font-size: large;
+                    }
+                    
+
+                    .ScheduleAppInnerDivTopSlotTopslot1to2bottomOriginalBackground{
+                        flex: 40%;
+                        color: white;
+                        background: red;
+                        display: grid;
+                        align-items: center;
+                        justify-content: center;
+                        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                        font-weight: bolder;
+                        font-size: larger;  }
+                    
+                    .ScheduleAppInnerDivTopSlotTopslot1to2bottomLimeBackground{
+                        flex: 40%;
+                        color: white;
+                        background:lime;
+                        display: grid;
+                        align-items: center;
+                        justify-content: center;
+                        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                        font-weight: bolder;   
+                        font-size: larger;   }
+
+                        .ScheduleAppInnerDivTopSlotTopslot1to2bottomBlueBackground {
+                            flex: 40%;
+                            color: white;
+                            background: rgb(0, 195, 255);
+                            display: grid;
+                            align-items: center;
+                            justify-content: center;
+                            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                            font-weight: bolder;   
+                            font-size: larger;  }
+
+.ScheduleAppInnerDivTopSlotTopInner8to9:hover {
+    box-shadow: 12px 12px 5px 5px rgba(0, 0, 255, .2);
+    transform: scale(1.06);
+    }
+    .ScheduleAppInnerDivTopSlotTopInner9to10:hover {
+        box-shadow: 12px 12px 5px 5px rgba(0, 0, 255, .2);
+        transform: scale(1.06);
+        }
+        .ScheduleAppInnerDivTopSlotTopInner10to11:hover {
+            box-shadow: 12px 12px 5px 5px rgba(0, 0, 255, .2);
+            transform: scale(1.06);
+            }
+            .ScheduleAppInnerDivTopSlotTopInner11to12:hover {
+                box-shadow: 12px 12px 5px 5px rgba(0, 0, 255, .2);
+                transform: scale(1.06);
+                }
+                .ScheduleAppInnerDivTopSlotTopInner12to1:hover {
+                    box-shadow: 12px 12px 5px 5px rgba(0, 0, 255, .2);
+                    transform: scale(1.06);
+                    }
+                    .ScheduleAppInnerDivTopSlotTopInner1to2:hover {
+                        box-shadow: 12px 12px 5px 5px rgba(0, 0, 255, .2);
+                        transform: scale(1.06);
+                        }
+                        
