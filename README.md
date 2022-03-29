@@ -1,4 +1,6 @@
-# BHARAT HOSPITAL MANAGEMENT SYSTEM
+#Future Ready Talent Project By Siddharth Patil
+
+## BHARAT HOSPITAL MANAGEMENT SYSTEM
 
 
 ## LINK : https://black-river-0535a3a10.1.azurestaticapps.net/
