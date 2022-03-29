@@ -4,7 +4,7 @@ import axios from 'axios';
 function WelcomeTitleDiv() {
   axios({
     method:'get',
-    url:'https://sample-hospital.herokuapp.com/StartServer',
+    url:'https://hospital-future.herokuapp.com//StartServer',
     data: {
             }
     })
